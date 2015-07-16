@@ -35,12 +35,12 @@ Received an unexpected error: Error Domain=EWSExchangeWebServicesErrorDomain Cod
 These errors wouldn't stop, the syncing wasn't complete, OMG
 Apparently I wasn't the first to encounter these problems, but the solutions either sounded too far off for me, or were to rigorous for my taste.
 I have found a much easier and faster method to get Exchange and Mail back to communicating with each other.
-1 ) Remove Exchange account from Mail
-2 ) Remove Exchange account from iCal
-3 ) Remove Exchange account from Address Book
-4 ) Close all three programs
-5 ) Verify that the local mailbox was removed. In ~/Library/Mail there shouldn't be a directory named EWS-[USERNAME]@[EXCHANGE-SERVER] if it is there throw it away, and empty thrash.
-6 ) Start Mail
-7 ) Add Exchange-account using the Wizzard
-8 ) Only move tiny batches of e-mail between accounts
+1. Remove Exchange account from Mail
+2. Remove Exchange account from iCal
+3. Remove Exchange account from Address Book
+4. Close all three programs
+5. Verify that the local mailbox was removed. In ~/Library/Mail there shouldn't be a directory named EWS-[USERNAME]@[EXCHANGE-SERVER] if it is there throw it away, and empty thrash.
+6. Start Mail
+7. Add Exchange-account using the Wizzard
+8. Only move tiny batches of e-mail between accounts
 Although tedious, it does work :)

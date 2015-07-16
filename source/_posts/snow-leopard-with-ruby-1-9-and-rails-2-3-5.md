@@ -15,9 +15,10 @@ As Snow Leopard is my OS I need to update the default shipped Ruby and Rails ver
 
 I've been installing and uninstalling multiple things before finally settling on my ultimate recipe for installing the correct Ruby version and Gems:
 (Within Terminal and already running the latest version of [macports](http://www.macports.org/install.php) )
-<pre class="brush: bash">sudo port install ruby19 +nosuffix
+{% codeblock lang:bash %}
+sudo port install ruby19 +nosuffix
 sudo port install sqlite3
 sudo gem update --system
 sudo gem install sqlite3-ruby
 sudo gem install rails
-</pre>
+{% endcodeblock %}
