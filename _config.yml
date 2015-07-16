@@ -4,7 +4,7 @@
 
 # Site
 title: Blognote
-subtitle: Edward&#039;s Unicode Sequences
+subtitle: Edward's Unicode Sequences
 description:
 author: Edward Smit
 email:
@@ -85,6 +85,6 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
+  type: git
   repo: git@github.com:edwardsmit/edwardsmit.github.io.git
   branch: master
